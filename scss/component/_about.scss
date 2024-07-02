@@ -1,0 +1,157 @@
+
+/*-------------------------------------------------------
+8. About css
+---------------------------------------------------------*/
+
+.about-wpr.grid-2 {
+    grid-gap: 13rem;
+}
+
+.about-sub-title {
+    display: block;
+    margin-bottom: 1.6rem;
+	font-size: 1.6rem;
+	color: var(--theme-color);
+}
+
+.about-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 3.5rem;
+}
+
+.about-sub-title.wh,
+.about-title.wh {
+	color: var(--white-color);
+}
+
+.about-left {
+	.about-img  {
+		img {
+			width: 100%;
+			object-fit: cover;
+		}
+	}
+}
+
+.about-right {
+	
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	p {
+		font-size: 1.6rem;
+		margin-bottom: 5.2rem;
+	}
+}
+
+.about-padding-right {
+	padding-right: 40rem;
+}
+
+.fun-fact {
+	text-align: center;
+	&:first-child .fun-icon {
+		border: 1px solid rgb(77, 65, 225);
+	}
+	&:nth-child(2) .fun-icon {
+		border: 1px solid rgb(255, 136, 78);
+	}
+	&:nth-child(3) .fun-icon {
+		border: 1px solid rgb(56, 193, 235);
+	}
+	.fun-icon {
+		height: 12.8rem;
+		width: 12.8rem;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		-webkit-border-radius: 50%;
+		border-radius: 50%;
+		margin: 0 auto;
+		img {
+			display: block;
+			margin-bottom: 1.6rem;
+		}
+		.timer {
+			font-size: 2.4rem;
+			font-weight: 400;
+			position: relative;
+			z-index: 1;
+			display: inline-block;
+			padding-right: 1.6rem;
+			color: var(--heading-color);
+			margin-bottom: 0;
+			&::before {
+				position: absolute;
+				z-index: -1;
+				content: '+';
+				right: 0;
+				top: 50%;
+				font-size: 2.4rem;
+				-webkit-transform: translate(0,-50%);
+				transform: translate(0,-50%);
+				color: currentColor;
+			}
+		}
+	}//fun-icon
+	.fun-desc {
+		margin-top: 1.6rem;
+		.medium {
+			font-size: 1.6rem;
+		}
+	}
+}
+
+//About 2
+
+.about-2-right {
+	p {
+		font-size: 1.6rem;
+		line-height: 1.625;
+		padding-right: 5rem;
+	}
+}
+
+.about-2-wpr.grid-2 {
+    grid-gap: 13rem;
+}
+
+.about-list{
+	li {
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+		margin-bottom: 3rem;
+		line-height: 1;
+		color: var(--heading-color);
+		font-size: 1.6rem;
+		&:last-child {
+			margin-bottom: 0;
+		}
+		i {
+			font-size: 2.6rem;
+		}
+		&:first-child i {
+			color: #4d41e1;
+		}
+		&:nth-child(2) i {
+			color: #ff9561;
+		}
+		&:nth-child(3) i {
+			color: #3dc3ec;
+		}
+	}
+}
+
+//Agency Success
+
+.as {
+	.about-right {
+		p{
+			padding-right: 3rem;
+		}
+	}
+}

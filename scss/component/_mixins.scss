@@ -1,0 +1,11 @@
+/*-------------------------------------------------------
+5. Mixins 
+---------------------------------------------------------*/
+
+.hv {
+	&:hover {
+		background-color: var(--white-color);
+		color: var(--heading-color);
+		box-shadow: 0px 15px 20px 0px rgba(77, 65, 225, 0.15);
+	}
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados del Formulario</title>
+</head>
+<body>
+    <h1>Resultados del Formulario</h1>
+    <div id="resultados">
+        <!-- Aquí se mostrarán los resultados -->
+    </div>
+
+    <script>
+        // Aquí puedes añadir el código JavaScript para hacer la solicitud AJAX y mostrar los resultados
+        // Ejemplo básico de solicitud AJAX usando JavaScript
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', 'datos.json', true);
+        xhr.onload = function() {
+            if (xhr.status >= 200 && xhr.status < 400) {
+                var data = JSON.parse(xhr.responseText);
+                mostrarResultados(data);
+            } else {
+                console.error('Error al cargar los datos.');
+            }
+        };
+        xhr.onerror = function() {
+            console.error('Error de red.');
+        };
+        xhr.send();
+
+        function mostrarResultados(data) {
+            var resultadosDiv = document.getElementById('resultados');
+            resultadosDiv.innerHTML = '<p>Status: ' + data.status + '</p><p>Mensaje: ' + data.message + '</p>';
+        }
+    </script>
+</body>
+</html>

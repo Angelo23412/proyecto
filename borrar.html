@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Calcular Índices Corporales</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+
+    <!-- Place favicon.ico in the root directory -->
+	<link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/favicon.png">
+	<!-- ========== Start Stylesheet ========== -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="assets/css/fontawesome.min.css" rel="stylesheet" />
+	<link href="assets/css/magnific-popup.css" rel="stylesheet" />
+	<link href="assets/css/owl.carousel.min.css" rel="stylesheet" />
+	<link href="assets/css/owl.theme.default.min.css" rel="stylesheet" />
+	<link href="assets/css/animate.css" rel="stylesheet" />
+	<link href="assets/css/bsnav.min.css" rel="stylesheet" />
+	<link href="assets/css/flaticon-set.css" rel="stylesheet" />
+	<link href="assets/css/slick.css" rel="stylesheet" />
+	<link href="assets/css/themify-icons.css" rel="stylesheet" />
+	<link href="assets/css/swiper-bundle.min.css" rel="stylesheet" />
+	<link href="assets/css/icofont.min.css" rel="stylesheet" />
+	<link href="assets/css/splitting.css" rel="stylesheet" />	
+	<link href="assets/css/splitting-cells.css" rel="stylesheet" />
+	<link href="style.css" rel="stylesheet">
+	<link href="assets/css/responsive.css" rel="stylesheet" />
+	<!-- ========== End Stylesheet ========== -->
+
+
+</head>
+
+
+
+
+
+
+<body class="demo-1" id="bdy">
+
+
+
+	
+    <div class="theme_all_wrap" data-magic-cursor="" data-color="crimson">
+        <header class="header">
+            <!-- Barra de navegación -->
+			<div class="main-navigation">
+				<div class="navbar navbar-expand-lg bsnav bsnav-sticky bsnav-sticky-slide bsnav-transparent">
+					<div class="container">
+						<a class="navbar-brand" href="index.html">
+							<img src="assets/ImagenesProyecto/imgLogo.png" class="logo-display" alt="thumb">
+							<img src="assets/ImagenesProyecto/imgLogo.png" class="logo-scrolled" alt="thumb">
+						</a>
+						<button class="navbar-toggler toggler-spring">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse justify-content-sm-end">
+							
+							
+	
+							
+							<ul class="navbar-nav navbar-mobile ml-auto">
+	
+								<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+								
+								<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+	
+								<li class="nav-item"><a class="nav-link" href="service.html">Service</a></li>
+	
+							</ul>
+	
+	
+	
+							<div class="header-serarch-btn">
+								<a href="contact.html" class="btn-2">
+									 Registro 
+									<i class="icofont-long-arrow-right"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="bsnav-mobile">
+					<div class="bsnav-mobile-overlay"></div>
+					<div class="navbar"></div>
+				</div>
+			</div>
+
+        </header>
+
+
+
+
+        <main class="main">
+            <div class="site-breadcrumb" style="background: url(assets/img/breadcrumb/breadcrumb.png)">
+                <div class="container wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                    <h1 class="breadcrumb-title">Calcular Índices Corporales</h1>
+                    <h5>Ingresa tus datos para calcular los índices corporales</h5>
+                </div>
+            </div>
+
+
+
+            <div class="single-area de-padding">
+                <div class="container">
+
+
+                    <div class="contact-page-info grid-2">
+                        <div class="contact-left">
+                            <h2 data-splitting class="mb-50 wow" data-wow-duration=".1s" data-wow-delay=".4s">
+                                Ingresa tus datos <br />
+                                para calcular índices corporales <br />
+                            </h2>
+                        </div>
+                        <div class="contact-right wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                            <form class="contact-form" id="calculo-form">
+                                <div class="row g-4">
+                                    <div class="col-md-6">
+                                        <input type="number" name="peso" class="form-control input-style-2" placeholder="Peso (kg)" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="number" name="altura" class="form-control input-style-2" placeholder="Altura (m)" step="0.01" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="number" name="edad" class="form-control input-style-2" placeholder="Edad (años)" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="number" name="cuello" class="form-control input-style-2" placeholder="Circunferencia de cuello (cm)" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="number" name="cintura" class="form-control input-style-2" placeholder="Circunferencia de cintura (cm)" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="number" name="cadera" class="form-control input-style-2" placeholder="Circunferencia de cadera (cm)" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <select name="genero" class="form-control input-style-2" required>
+                                            <option value="">Seleccionar Género</option>
+                                            <option value="masculino">Masculino</option>
+                                            <option value="femenino">Femenino</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="theme-btn mt-20">
+                                            Calcular Índices
+                                        </button>
+                                    </div>
+                                    <div class="col-12 text-center">
+                                        <div id="resultado" class="mt-3"></div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <!-- Pie de página -->
+        </footer>
+
+
+
+        
+        <script src="assets/js/jquery-3.6.0.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/plugins.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('#calculo-form').on('submit', function(event) {
+                    event.preventDefault();
+
+                    // Obtener valores del formulario
+                    var peso = parseFloat($('input[name="peso"]').val());
+                    var altura = parseFloat($('input[name="altura"]').val());
+                    var edad = parseInt($('input[name="edad"]').val());
+                    var cuello = parseFloat($('input[name="cuello"]').val());
+                    var cintura = parseFloat($('input[name="cintura"]').val());
+                    var cadera = parseFloat($('input[name="cadera"]').val());
+                    var genero = $('select[name="genero"]').val();
+
+                    // Validar que todos los campos estén llenos
+                    if (!peso || !altura || !edad || !cuello || !cintura || !cadera || !genero) {
+                        $('#resultado').html('<p class="alert alert-danger">Por favor completa todos los campos.</p>');
+                        return;
+                    }
+
+                    // Calcular índices corporales
+                    // Aquí puedes implementar los cálculos necesarios
+                    var imc = calcularIMC(peso, altura);
+                    var icc = calcularICC(cintura, cadera);
+                    var ica = calcularICA(edad, cuello, cintura, altura, genero);
+                    var mm = calcularMM(peso, genero);
+                    var tmb = calcularTMB(peso, altura, edad, genero);
+                    var gc = calcularGC(cintura, cuello, altura, peso, genero);
+
+                    // Mostrar resultados
+                    $('#resultado').html(`
+                        <h4>Resultados:</h4>
+                        <p>IMC: ${imc.toFixed(2)}</p>
+                        <p>ICC: ${icc.toFixed(2)}</p>
+                        <p>ICA: ${ica.toFixed(2)}</p>
+                        <p>MM: ${mm.toFixed(2)}</p>
+                        <p>TMB: ${tmb.toFixed(2)}</p>
+                        <p>GC: ${gc.toFixed(2)}</p>
+                    `);
+                });
+
+                // Funciones para calcular índices
+                function calcularIMC(peso, altura) {
+                    return peso / (altura * altura);
+                }
+
+                function calcularICC(cintura, cadera) {
+                    return cintura / cadera;
+                }
+
+                function calcularICA(edad, cuello, cintura, altura, genero) {
+                    // Implementar fórmula para calcular ICA
+                    // Ejemplo básico de cálculo ficticio:
+                    var factor = genero === 'masculino' ? 10 : 15;
+                    return (cintura * factor) / (altura - cuello);
+                }
+
+                function calcularMM(peso, genero) {
+                    // Implementar cálculo de masa muscular
+                    // Ejemplo básico de cálculo ficticio:
+                    return genero === 'masculino' ? peso * 1.5 : peso * 1.2;
+                }
+
+                function calcularTMB(peso, altura, edad, genero) {
+                    // Implementar fórmula para calcular TMB
+                    // Ejemplo básico de cálculo ficticio:
+                    var factor = genero === 'masculino' ? 5 : -161;
+                    return (10 * peso) + (6.25 * altura * 100) - (5 * edad) + factor;
+                }
+
+                function calcularGC(cintura, cuello, altura, peso, genero) {
+                    // Implementar fórmula para calcular Grasa Corporal
+                    // Ejemplo básico de cálculo ficticio:
+                    var factor = genero === 'masculino' ? 15 : 10;
+                    return ((cintura - cuello) * peso) / (altura * factor);
+                }
+            });
+        </script>
+    </div>
+</body>
+</html>

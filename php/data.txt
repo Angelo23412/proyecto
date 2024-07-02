@@ -1,0 +1,60 @@
+ID: ID de usuario: 4
+Peso: 20 kg
+Altura: 20 m
+Edad: 20 años
+Circunferencia de cuello: 20 cm
+Circunferencia de cintura: 20 cm
+Circunferencia de cadera: 20 cm
+Género: masculino
+IMC: 0.05
+ICC: 1
+ICA: 1
+MM: -5.720000000000001
+TMB: 230
+GC: -11.540000000000001
+
+ID: ID de usuario: 4
+Peso: 30 kg
+Altura: 30 m
+Edad: 30 años
+Circunferencia de cuello: 30 cm
+Circunferencia de cintura: 30 cm
+Circunferencia de cadera: 30 cm
+Género: femenino
+IMC: 0.03333333333333333
+ICC: 1
+ICA: 1
+MM: -26.549999999999997
+TMB: 176.5
+GC: 1.54
+
+ID: ID de usuario: 4
+Peso: 1 kg
+Altura: 1 m
+Edad: 1 años
+Circunferencia de cuello: 1 cm
+Circunferencia de cintura: 1 cm
+Circunferencia de cadera: 1 cm
+Género: masculino
+IMC: 1
+ICC: 1
+ICA: 1
+MM: -18.526
+TMB: 16.25
+GC: -14.770000000000001
+
+ID: ID de usuario: 3
+Peso: 9 kg
+Altura: 9 m
+Edad: 9 años
+Circunferencia de cuello: 9 cm
+Circunferencia de cintura: 9 cm
+Circunferencia de cadera: 9 cm
+Género: masculino
+IMC: 0.1111111111111111
+ICC: 1
+ICA: 1
+MM: -13.134
+TMB: 106.25
+GC: -13.996666666666668
+

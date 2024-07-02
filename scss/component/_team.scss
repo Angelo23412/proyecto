@@ -1,0 +1,67 @@
+
+/*-------------------------------------------------------
+17. Team css 
+---------------------------------------------------------*/
+
+.team-box {
+	text-align: center;
+	.team-pic {
+		position: relative;
+		z-index: 1;
+		overflow: hidden;
+		.team-social {
+			position: absolute;
+			top: 0;
+			height: 100%;
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			gap: 1.5rem;
+			z-index: 1;
+			transition: .5s ease;
+			-webkit-transform: rotateX(90deg);
+			transform: rotateX(90deg);
+			li {
+				a {
+					i {
+						height: 4rem;
+						width: 4rem;
+						line-height: 4rem;
+						text-align: center;
+						background-color: var(--theme-color-2);
+						color: var(--white-color);
+						-webkit-border-radius: 50%;
+						border-radius: 50%;
+					}
+				}
+			}
+			&::before {
+				position: absolute;
+				content: '';
+				height: 100%;
+				width: 100%;
+				top: 0;
+				left: 0;
+				background-color: rgba(0,0,0,.678);
+				z-index: -1;
+			}
+		}
+	}
+	.team-desc {
+		padding: 3rem 3rem 0rem 3rem;
+		h5 {
+			line-height: 1;
+			margin-bottom: 1rem;
+		}
+		span {
+			font-size: 1.6rem;
+			font-weight: 400;
+		}
+	}
+	&:hover .team-social {
+		-webkit-transform: rotateX(0deg);
+		transform: rotateX(0deg);
+	}
+}
+

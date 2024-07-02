@@ -1,0 +1,8 @@
+ID: , Peso:  kg, Altura:  m, Edad:  años, Cuello:  cm, Cintura:  cm, Cadera:  cm, IMC: , ICC: , ICA: , MM: , TMB: , GC: 
+ID: , Peso: 20 kg, Altura: 20 m, Edad: 20 años, Cuello: 20 cm, Cintura: 20 cm, Cadera: 20 cm, IMC: 0.05, ICC: 1, ICA: 1, MM: -5.720000000000001, TMB: 230, GC: -11.540000000000001
+ID: , Peso: 20 kg, Altura: 20 m, Edad: 20 años, Cuello: 20 cm, Cintura: 20 cm, Cadera: 20 cm, IMC: 0.05, ICC: 1, ICA: 1, MM: -5.720000000000001, TMB: 230, GC: -11.540000000000001
+ID: , Peso:  kg, Altura:  m, Edad:  años, Cuello:  cm, Cintura:  cm, Cadera:  cm, IMC: , ICC: , ICA: , MM: , TMB: , GC: 
+ID: , Peso:  kg, Altura:  m, Edad:  años, Cuello:  cm, Cintura:  cm, Cadera:  cm, IMC: , ICC: , ICA: , MM: , TMB: , GC: 
+ID: , Peso:  kg, Altura:  m, Edad:  años, Cuello:  cm, Cintura:  cm, Cadera:  cm, IMC: , ICC: , ICA: , MM: , TMB: , GC: 
+ID: , Peso:  kg, Altura:  m, Edad:  años, Cuello:  cm, Cintura:  cm, Cadera:  cm, IMC: , ICC: , ICA: , MM: , TMB: , GC: 
+ID: , Peso:  kg, Altura:  m, Edad:  años, Cuello:  cm, Cintura:  cm, Cadera:  cm, IMC: , ICC: , ICA: , MM: , TMB: , GC: 

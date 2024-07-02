@@ -1,0 +1,78 @@
+
+/*-------------------------------------------------------
+10. What We do css 
+---------------------------------------------------------*/
+
+.what-area {
+	position: relative;
+	&.what-page::before {
+		display: none;
+	}
+	&::before {
+		position: absolute;
+		content: '';
+		z-index: -1;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-image: -moz-linear-gradient ( 
+			90deg,
+			rgb(24,0,255) 0%,
+			rgb(139,127,255) 35%,
+			rgb(254,254,254) 60%
+		);
+		background-image: -webkit-linear-gradient( 
+			90deg,
+			rgb(24,0,255) 0%,
+			rgb(139,127,255) 35%,
+			rgb(254,254,254) 60%
+		);
+		background-image: -ms-linear-gradient( 
+			90deg,
+			rgb(24,0,255) 0%,
+			rgb(139,127,255) 35%,
+			rgb(254,254,254) 60%
+		);
+		opacity: 0.051;
+	}
+}
+
+.what-box {
+	padding: 8rem 6rem;
+	background-color: var(--white-color);
+	box-shadow: 0px 25px 70px 0px rgba(152, 152, 153, 0.25);
+	.what-icon {
+		margin-bottom: 3rem;
+	}
+	.what-info {
+		h5 {
+			font-size: 2rem;
+			font-weight: 500;
+			margin-bottom: 2rem;
+		}
+		p {
+			line-height: 1.778;
+			margin-bottom: 2.5rem;
+		}
+	}
+}
+
+.what-btn {
+	font-size: 16px;
+	text-decoration: underline;
+	line-height: 2;
+	display: inline-block;
+}
+
+.what-footer {
+	text-align: center;
+	h5 {
+		font-weight: 400;
+		color: #6b6a75;
+		a {
+			color: var(--theme-color);
+			text-decoration: underline;
+		}
+	}
+}

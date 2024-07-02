@@ -1,0 +1,52 @@
+
+/*-------------------------------------------------------
+7. Service css
+---------------------------------------------------------*/ 
+
+
+.service-area {
+	background-position: top left;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-bottom: 23rem;
+}
+
+.feature-service {
+	margin-top: -23rem;
+	.feature-info  {
+		.what-btn {
+			color: #6b6a75;
+		}
+	}
+}
+
+//Service Single
+
+.service-single-text {
+	.su {
+		font-size: 1.6rem;
+		color: var(--theme-color);
+		margin-bottom: 3rem;
+		display: block;
+		line-height: 1
+	}
+	.service-single-title {
+		font-size: 3rem;
+	}
+	.service-option {
+		li {
+			display: flex;
+			gap: 3rem;
+			align-items: baseline;
+			margin-bottom: 3rem;
+			&:last-child {
+				margin-bottom: 0;
+			}
+			.service-txt {
+				h5 {
+					font-weight: 500;
+				}
+			}
+		}
+	}
+}

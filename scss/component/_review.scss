@@ -1,0 +1,137 @@
+
+/*-------------------------------------------------------
+15. Review css
+---------------------------------------------------------*/
+
+.review-single {
+	padding: 10rem 3rem;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background-color: var(--white-color);
+	-webkit-box-shadow: 0px 8px 13px 0px rgba(152, 152, 153, 0.25);
+	box-shadow: 0px 8px 13px 0px rgba(152, 152, 153, 0.25);
+	position: relative;
+	z-index: 1;
+	&::before {
+		position: absolute;
+		z-index: -1;
+		top: 35%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		width: 190px;
+		height: 155px;
+		content: '';
+		background-image: url(assets/img/icons/qoute.png);
+	}
+	.review-content {
+		padding: 0 9rem;
+		p {
+			line-height: 1.778;
+			margin-bottom: 3rem;
+			font-size: 2rem;
+		}
+		.review-bio {
+			h5 {
+				font-size: 2rem;
+				margin-bottom: 8px;
+				line-height: 1;
+			}
+			span {
+				font-size: 1.6rem;
+				margin-bottom: 1rem;
+				display: inline-block;
+			}
+			.review-rating {
+				justify-content: center;
+				i {
+					color: #f2c617;
+				}
+			}
+		}
+	}
+}
+
+//slider
+
+.review-wpr .swiper-button-prev,
+.review-wpr .swiper-container-rtl .swiper-button-next {
+    left: 4rem;
+    right: auto;
+}
+
+.review-wpr .swiper-button-next,
+.review-wpr .swiper-container-rtl .swiper-button-prev {
+    right: 4rem;
+    left: auto;
+}
+
+.review-wpr .swiper-button-next::after,
+.review-wpr .swiper-button-prev::after {
+    font-family: swiper-icons;
+    font-size: 1.2rem;
+	height: 3rem;
+	width: 3rem;
+	line-height: 3rem;
+	text-align: center;
+	-webkitborder-radius: 50%;
+	border-radius: 50%;
+	background-color: var(--theme-color);
+	color: var(--white-color);
+	font-weight: 700;
+}
+
+.review-wpr .swiper-button-next.swiper-button-disabled,
+.review-wpr .swiper-button-prev.swiper-button-disabled {
+	opacity: 1;
+	cursor: auto;
+    pointer-events: none;
+}
+
+.review-wpr .swiper-button-next.swiper-button-disabled::after,
+.review-wpr .swiper-button-prev.swiper-button-disabled::after {
+	background-color: var(--bg-color)!important;
+	color: var(--theme-color)!important;
+}
+
+.review-wpr.swiper-container {
+	padding: 15px;
+	margin: -15px -15px -15px 0;
+}
+
+//Feedback
+
+.feedback-right {
+	p {
+		padding-right: 17rem;
+	}
+	
+	.feedback-bio {
+		h5 {
+			font-weight: 500;
+			font-size: 2rem;
+			line-height: 1;
+			margin-bottom: 5px;
+		}
+		span {
+			font-size: 1.6rem;
+			line-height: 1;
+		}
+		.review-rating {
+			i {
+				color: #f2c617;
+			}
+		}
+	}
+}
+  
+.swiper-pagination {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+	width: 1.2rem;
+	height: 1.2rem;
+	background-color: var(--theme-color);
+}

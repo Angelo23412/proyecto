@@ -1,0 +1,113 @@
+
+/*-------------------------------------------------------
+13. Work css
+---------------------------------------------------------*/
+
+.work-wpr {
+	.work-grid-1 {
+		display: grid;
+		grid-template-columns: 48.75% 23% 23%;
+		grid-auto-rows: auto;
+		grid-gap: 3rem;
+	}
+	.work-pic {
+		position: relative;
+		z-index: 1;
+		overflow: hidden;
+		.work-overlay {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			z-index: 1;
+			-webkit-transform: rotateX(90deg);
+			transform: rotateX(90deg);
+			-webkit-transition: all .7s ease;
+			transition: all .7s ease;
+			a {
+				i {
+					width: 4.8rem;
+					height: 4.8rem;
+					line-height: 4.8rem;
+					text-align: center;
+					border: 1px solid var(--white-color);
+					font-size: 2.4rem;
+					-webkit-border-radius: 50%;
+					border-radius: 50%;
+					display: inline-block;
+					color: var(--white-color);
+				}
+			}
+			&::before {
+				position: absolute;
+				content: '';
+				height: 100%;
+				width: 100%;
+				-webkit-border-radius: 5px;
+				border-radius: 5px;
+				background-color: rgb(77, 65, 225);
+				opacity: 0.6;
+				z-index: -1;
+			}
+		}
+		img {
+			width: 100%;
+			object-fit: cover;
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
+		}
+	}
+}
+
+.work-pic:hover .work-overlay {
+	-webkit-transform: rotateX(0deg);
+			transform: rotateX(0deg);
+}
+
+//Case Study
+
+.case-box {
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 15px 20px 0px rgba(172, 172, 172, 0.15);
+	box-shadow: 0px 15px 20px 0px rgba(172, 172, 172, 0.15);
+	overflow: hidden;
+	.case-info {
+		padding: 3.5rem;
+		text-align: center;
+	}
+}
+
+.case-btn {
+	text-align: center;
+	.what-btn {
+		font-weight: 600;
+		color: var(--theme-color);
+	}
+}
+
+
+// Work Single
+.w-title {
+	margin-bottom: 3rem;
+    font-weight: 500;
+	padding-bottom: 2rem;
+	border-bottom: 1px solid #eaeaea;
+}
+
+.work-single-title-s {
+	font-weight: 400;
+}
+.work-single-title {
+	font-weight: 500;
+}
+
+.w-title-list {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
